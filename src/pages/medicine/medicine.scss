@@ -1,0 +1,30 @@
+page-medicine{
+    .card-md h2 {
+        margin: 2px 0;
+        font-size: 1.6rem;
+        font-weight: normal;
+        color: #427feb;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .card-md p {
+        margin: 0 0 2px;
+        font-size: 1.4rem;
+        font-weight: normal;
+        line-height: 1.5;
+        color: #222;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .head {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .card-header {
+        align-content: center;
+        color: #427feb;
+    }
+}

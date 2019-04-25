@@ -1,0 +1,24 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding style="background-color:silver" >
+
+  <h1 style="text-align: center; margin-top: 10%;font-style:bolds; font-family:Cambria; font-size:30px">LUMOS<br>Patient's Record</h1>    
+
+  <div class="imgcontainer">
+    <img src="../../assets/imgs/diya.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <form style="margin-top: 10%" >
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Please enter patient's name:" name="uname" [(ngModel)]="data.userName" required>
+    
+      <button type="submit" (click)="login()">Mark Attendance</button>
+     
+    </div>
+  </form>
+
+  
+</ion-content>

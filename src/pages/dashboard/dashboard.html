@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Medical Record</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card style="padding-top: 5%; padding-bottom: 5%">
+      <ion-card-header>
+          <h1 style="text-align: center"><b>{{ data.name }}'s Profile</b></h1>
+      </ion-card-header>
+      <div class="imgcontainer">
+          <img src="../../assets/imgs/woman.jpg" alt="Avatar" class="avatar">
+      </div>
+    </ion-card>
+
+    <br>
+
+    <ion-card class="col-md-4" text-align:left>
+        <ion-card-header>
+         <b>Profile of {{ data.name }}</b>
+        </ion-card-header>
+      
+        <h2>
+          Gender: F
+        </h2>
+        <h2>
+               Age: 43
+        </h2>
+        <h2>
+               Weight: 60 kg
+        </h2>
+        <h2>     Height: 162.56 cm
+        </h2>
+        <h2>
+               Commencement date of the treatment: February 8, 2019
+        </h2>
+        <h2>
+               Number of visits made: 4
+        </h2>
+        <h2>
+               End date of the treatment: July 15, 2019
+        </h2>
+        <h2>
+                
+        </h2>
+
+
+        <button ion-item (click)="changePage()">
+          <ion-icon name="medkit" item-start></ion-icon>
+          Medicines Prescribed & Dosage
+        </button>
+
+        
+      </ion-card>
+</ion-content>
+
+
+
